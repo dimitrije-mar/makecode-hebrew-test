@@ -1,10 +1,21 @@
 {
     "name": "makecode-hebrew-test",
-    "version": "1.0.0",
-    "description": "Hebrew tutorial rendering test for Minecraft Education Code Builder",
+    "version": "1.0.1",
+    "dependencies": {
+        "core": "*",
+        "builder": "*"
+    },
     "files": [
         "README.md",
+        "main.ts",
         "wood1-he.md"
     ],
-    "supportedTargets": ["minecraft"]
+    "targetVersions": {
+        "target": "1.6.8",
+        "targetId": "minecraft"
+    },
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "tsprj"
 }
