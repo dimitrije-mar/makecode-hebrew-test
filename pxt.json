@@ -1,0 +1,10 @@
+{
+    "name": "makecode-hebrew-test",
+    "version": "1.0.0",
+    "description": "Hebrew tutorial rendering test for Minecraft Education Code Builder",
+    "files": [
+        "README.md",
+        "wood1-he.md"
+    ],
+    "supportedTargets": ["minecraft"]
+}
